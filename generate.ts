@@ -4,15 +4,6 @@ import * as sharp from "sharp";
 import * as SVGO from "svgo";
 import * as toIco from "to-ico";
 
-// const files = [
-// 	fs.readFileSync('unicorn-16x16.png'),
-// 	fs.readFileSync('unicorn-32x32.png')
-// ];
-
-// toIco(files).then(buf => {
-// 	fs.writeFileSync('favicon.ico', buf);
-// });
-
 const sourceSize = 500;
 const sourceImages = ["logomark", "logotype"];
 const targetSizes = [500, 100, 50, 20];
