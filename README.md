@@ -1,8 +1,10 @@
 # Brand Assets for Pyn
 
-Yarn install and then run:
+    $ yarn install
 
-    $ yarn run process
+and then run:
+
+    $ yarn run generate
 
 To generate the different image sizes from the src directory. This will also generate optimized SVG images. All outputs are places in the root directory of the project.
 
